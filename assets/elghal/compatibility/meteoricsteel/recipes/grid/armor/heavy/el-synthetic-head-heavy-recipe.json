@@ -1,0 +1,25 @@
+[
+	{
+		"ingredientPattern": "GDE,EBF,CFC",
+		"recipeGroup": 1,
+		"ingredients": {
+			"B": { "type": "item", "code": "game:armor-head-plate-meteoricsteel"
+			},
+			"C": { "type": "item", "code": "game:metalplate-blackbronze"
+			},
+			"D": { "type": "item", "code": "el-synthetic-schematic-seraph", "returnedStack": { "type": "item", "code": "el-synthetic-schematic-seraph" }
+			},
+			"E": { "type": "item", "code": "game:ingot-lead", "quantity": 2
+			},
+			"G": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 100
+			},
+			"F": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "seraph meteoric steel plate head",
+		"output": { "type": "item", "code": "el-synthetic-head-meteoricsteel-seraphsynthetic-heavy-none"
+		}
+	}
+]

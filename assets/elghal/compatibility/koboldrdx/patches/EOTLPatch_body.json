@@ -1,0 +1,11 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "elsynthetic" }],
+	"value": {
+		"elsynthetic:entity/armor/synthetic/seraphsynthetic_heavylegs": "elsynthetic:entity/armor/synthetic/kobold/seraphsynthetic_heavylegs"
+		}
+	}
+]

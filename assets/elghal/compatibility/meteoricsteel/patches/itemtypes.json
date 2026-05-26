@@ -1,0 +1,26 @@
+[
+  {
+    "file": "elsynthetic:itemtypes/wearable/synthetic/el-synthetic-body",
+    "op": "addmerge",
+    "path": "/allowedVariants",
+    "value": [
+		"*-meteoricsteel*heavy*none*"
+    ]
+  },
+  {
+    "file": "elsynthetic:itemtypes/wearable/synthetic/el-synthetic-head",
+    "op": "addmerge",
+    "path": "/allowedVariants",
+    "value": [
+		"*-meteoricsteel*heavy*none*"
+    ]
+  },
+  {
+    "file": "elsynthetic:itemtypes/wearable/synthetic/el-synthetic-legs",
+    "op": "addmerge",
+    "path": "/allowedVariants",
+    "value": [
+		"*-meteoricsteel*heavy*none*"
+    ]
+  }
+]

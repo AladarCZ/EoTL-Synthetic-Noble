@@ -1,0 +1,36 @@
+[
+    {
+        "ingredientPattern": "A",
+        "recipeGroup": 1,
+        "ingredients": {
+            "A": { "type": "item", "code": "el-synthetic-schematic-*",
+                        "name": "race", "allowedVariants": [
+                    "seraph"
+                ]
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "copyAttributesFrom": "A",
+        "name": "Roll Scroll",
+        "output": { "type": "item", "code": "el-synthetic-rolled-schematic-{race}"
+        }
+    },
+    {
+        "ingredientPattern": "A",
+        "recipeGroup": 1,
+        "ingredients": {
+            "A": { "type": "item", "code": "el-synthetic-rolled-schematic-*",
+                        "name": "race", "allowedVariants": [
+                    "seraph"
+                ]
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "copyAttributesFrom": "A",
+        "name": "Roll Scroll",
+        "output": { "type": "item", "code": "el-synthetic-schematic-{race}"
+        }
+    }
+]

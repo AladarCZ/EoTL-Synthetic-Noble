@@ -1,0 +1,120 @@
+{
+    "code": "el-synthetic-legs",
+    "heldTpIdleAnimation": "holdunderarm",
+    "variantgroups": [
+        { "code": "metallegs", "states": ["iron", "steel", "meteoricsteel"] },
+        { "code": "racelegs", "states": ["seraphsynthetic"] },
+        { "code": "version", "states": ["heavy"] },
+        { "code": "line", "states": [ "none"] }
+    ],
+	"behaviors": [
+		{ "name": "Wearable" }
+	],
+    "skipVariants": [
+    ],
+    "allowedVariants": [
+        "*"
+    ],
+    "shapeByType": {
+        "*": { "base": "entity/armor/synthetic/{racelegs}_{version}legs" }
+    },
+    "texturesByType": {
+        "*": {
+            "seraph": { "base": "game:block/transparent" },
+            "syntheticlegs": { "base": "armor/entity/{version}/{metallegs}/{racelegs}" },
+            "line": { "base": "block/lines/line{line}" }
+        }
+    },
+    "storageFlags": 128,
+    "maxstacksize": 1,
+    "attributes": {
+        "handbook": { 
+            "groupBy":["*{racelegs}-{version}*"]
+        },
+        "visibleDamageEffect": true,
+        "wearableAttachment": true,
+        "clothescategoryByType": {
+            "*": "armorlegs"
+        },
+        "warmthByType": {
+        },
+        "defaultProtLoss": {
+            "perTierRelativeProtectionLoss": [0.03, 0.15],
+            "perTierFlatDamageReductionLoss": [0.1, 0.2]
+        },
+        "protectionModifiersByType": {
+            "*-meteoricsteel*seraph*heavy*": {
+                "relativeProtection": 0.975,
+                "flatDamageReduction": 4.5,
+                "highDamageTierResistant": true,
+                "protectionTier": 5
+            },
+
+
+            "*-steel*seraph*heavy*": {
+                "relativeProtection": 0.97,
+                "flatDamageReduction": 3,
+                "highDamageTierResistant": true,
+                "protectionTier": 4
+            },
+
+
+            "*-iron*seraph*heavy*": {
+                "relativeProtection": 0.96,
+                "flatDamageReduction": 2.5,
+                "highDamageTierResistant": true,
+                "protectionTier": 3
+            }
+        },
+        "statModifiersByType": {
+            "*seraph*heavy*": {
+                "rangedWeaponsAcc": -0.12,
+                "rangedWeaponsSpeed": -0.22,
+                "walkSpeed": -0.12,
+                "healingeffectivness": -0.18,
+                "hungerrate": 0.22
+            }
+        }
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "echoesofthelenssynthetic": ["*"] },
+    "renderAlphaTest": 0.25,
+    "durabilityByType": {
+        "*-meteoricsteel*seraph*heavy*": 8500,
+
+        "*-steel*seraph*heavy*": 7000,
+
+        "*-iron*seraph*heavy*": 3600
+    },
+    "fpHandTransformByType": {
+        "*": {
+            "translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+            "rotation": { "x": 163, "y": -111, "z": -180 },
+            "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+            "scale": 2.15
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
+            "rotation": { "x": 95, "y": -20, "z": -91 },
+            "origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
+            "scale": 0.74
+        }
+    },
+    "guiTransformByType": {
+        "*": {
+            "translation": { "x": 1, "y": 0, "z": 0 },
+            "rotation": { "x": -26, "y": -46, "z": -180 },
+            "origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
+            "scale": 1.25
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+            "scale": 3.1
+        }
+    }
+}

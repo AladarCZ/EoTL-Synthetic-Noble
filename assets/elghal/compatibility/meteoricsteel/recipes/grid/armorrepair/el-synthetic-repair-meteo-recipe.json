@@ -1,0 +1,67 @@
+[
+    {
+        "ingredientPattern": "BL,P_",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": { "type": "item", "code": "el-synthetic-legs-meteoricsteel-seraphsynthetic-heavy-none"
+            },
+            "P": { "type": "item", "code": "game:metalplate-meteoricsteel"
+            },
+            "L": { "type": "item", "code": "game:leather-sturdy-plain"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "heavy helmet repair",
+        "output": { "type": "item", "code": "el-synthetic-legs-meteoricsteel-seraphsynthetic-heavy-none"
+        }
+    },
+    {
+        "ingredientPattern": "BL,P_",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": { "type": "item", "code": "el-synthetic-body-meteoricsteel-seraphsynthetic-heavy-none" , 
+                    "name": "metal", 
+                    "allowedVariants": [
+                    "steel",
+                    "iron"
+                ],
+            },
+            "P": { "type": "item", "code": "game:metalplate-meteoricsteel"
+            },
+            "L": { "type": "item", "code": "game:leather-sturdy-plain"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "heavy helmet repair",
+        "output": { "type": "item", "code": "el-synthetic-body-meteoricsteel-seraphsynthetic-heavy-none"
+        }
+    },
+    {
+        "ingredientPattern": "BL,P_",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": { "type": "item", "code": "el-synthetic-head-meteoricsteel-seraphsynthetic-heavy-none"
+            },
+            "P": { "type": "item", "code": "game:metalplate-meteoricsteel"
+            },
+            "L": { "type": "item", "code": "game:leather-sturdy-plain"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "heavy helmet repair",
+        "output": { "type": "item", "code": "el-synthetic-head-meteoricsteel-seraphsynthetic-heavy-none"
+        }
+    }
+]

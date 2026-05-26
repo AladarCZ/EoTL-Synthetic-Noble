@@ -1,0 +1,34 @@
+[
+	{
+		"ingredientPattern": "CBC,FDF,EGE",
+		"recipeGroup": 1,
+		"ingredients": {
+			"B": { "type": "item", "code": "game:armor-legs-plate-steel" },
+			"C": { "type": "item", "code": "game:metalplate-blackbronze", "quantity": 2 },
+			"D": { "type": "item", "code": "el-synthetic-schematic-seraph", "returnedStack": { "type": "item", "code": "el-synthetic-schematic-seraph" } },
+			"E": { "type": "item", "code": "game:ingot-lead", "quantity": 4 },
+			"G": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 100 },
+			"F": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 6 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "seraph steel plate legs",
+		"output": { "type": "item", "code": "el-synthetic-legs-steel-seraphsynthetic-heavy-none" }
+	},
+	{
+		"ingredientPattern": "CBC,FDF,EGE",
+		"recipeGroup": 1,
+		"ingredients": {
+			"B": { "type": "item", "code": "game:armor-legs-plate-iron" },
+			"C": { "type": "item", "code": "game:metalplate-blackbronze", "quantity": 2 },
+			"D": { "type": "item", "code": "el-synthetic-schematic-seraph", "returnedStack": { "type": "item", "code": "el-synthetic-schematic-seraph" } },
+			"E": { "type": "item", "code": "game:ingot-lead", "quantity": 4 },
+			"G": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 100 },
+			"F": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 6 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "seraph iron plate legs",
+		"output": { "type": "item", "code": "el-synthetic-legs-iron-seraphsynthetic-heavy-none" }
+	}
+]
